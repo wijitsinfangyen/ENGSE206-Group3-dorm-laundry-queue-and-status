@@ -1,0 +1,100 @@
+<mxfile host="app.diagrams.net" agent="ENGSE206">
+  <diagram id="laundry-context-refined" name="System Context">
+    <mxGraphModel dx="1899" dy="968" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=26;fontStyle=1;fontColor=#123B6D;" value="Dorm Laundry Queue And Status — System Context Diagram" vertex="1">
+          <mxGeometry height="45" width="1000" x="80" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#666666;" value="Week 02: show the system boundary and the key data exchanged with people/services." vertex="1">
+          <mxGeometry height="30" width="1000" x="80" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="system" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F8F4;strokeColor=#168A87;strokeWidth=3;fontColor=#168A87;fontStyle=1;fontSize=20;align=center;verticalAlign=middle;" value="Dorm Laundry Queue &amp; Status System&#xa;เช็กสถานะจำลอง • จัดลำดับคิว • แจ้งเตือน • รับแจ้งเครื่องเสีย" vertex="1">
+          <mxGeometry height="210" width="560" x="620" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="student" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF4FF;strokeColor=#1D6FC3;strokeWidth=2;fontColor=#123B6D;fontStyle=1;fontSize=16;align=center;verticalAlign=middle;" value="นักศึกษาหอพัก&lt;div&gt;(Students)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="310" x="90" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="staff" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF4FF;strokeColor=#1D6FC3;strokeWidth=2;fontColor=#123B6D;fontStyle=1;fontSize=16;align=center;verticalAlign=middle;" value="ผู้ดูแลหอพัก / แม่บ้าน / เจ้าหน้าที่" vertex="1">
+          <mxGeometry height="110" width="310" x="90" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="provider" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E8;strokeColor=#E58327;strokeWidth=2;fontColor=#123B6D;fontStyle=1;fontSize=16;align=center;verticalAlign=middle;" value="ผู้ให้บริการเครื่องซักผ้า" vertex="1">
+          <mxGeometry height="110" width="310" x="1400" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="notice" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E8;strokeColor=#E58327;strokeWidth=2;fontColor=#123B6D;fontStyle=1;fontSize=16;align=center;verticalAlign=middle;" value="Notification Service (ระบบจำลอง)" vertex="1">
+          <mxGeometry height="110" width="310" x="1400" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="student" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.15;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#123B6D;fontSize=13;fontColor=#18324B;labelBackgroundColor=#FFFFFF;" target="system" value="คำขอเข้าคิว / จองคิว / แจ้งเครื่องเสีย">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="238" />
+              <mxPoint x="550" y="422" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="system" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.35;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#123B6D;fontSize=13;fontColor=#18324B;labelBackgroundColor=#FFFFFF;" target="student" value="ลำดับคิว / ข้อมูลสถานะความว่างเครื่อง">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="464" />
+              <mxPoint x="440" y="293" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="staff" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.001;entryY=0.626;entryDx=0;entryDy=0;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#123B6D;fontSize=13;fontColor=#18324B;labelBackgroundColor=#FFFFFF;entryPerimeter=0;" target="system" value="สั่งปลดคิว No-show / อัปเดตสถานะจำลอง&amp;nbsp;&lt;div&gt;(ผ้าตกค้าง, เครื่องเสีย)&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0379" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="440" y="718" />
+              <mxPoint x="440" y="521" />
+              <mxPoint x="600" y="521" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="system" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=-0.001;exitY=0.888;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#123B6D;fontSize=13;fontColor=#18324B;labelBackgroundColor=#FFFFFF;exitPerimeter=0;" target="staff" value="รายการคิวค้างในระบบ /&amp;nbsp;&lt;div&gt;ข้อมูลเครื่องชำรุดในพื้นที่&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="577" />
+              <mxPoint x="510" y="577" />
+              <mxPoint x="510" y="773" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="provider" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0;exitY=0.75;exitDx=0;exitDy=0;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#123B6D;fontSize=13;fontColor=#18324B;labelBackgroundColor=#FFFFFF;" value="ยืนยันการซ่อมเสร็จสิ้น&amp;nbsp;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(24, 50, 75), rgb(178, 201, 222));&quot;&gt;/&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(24, 50, 75), rgb(178, 201, 222)); background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;อัปเดตข้อมูลการบำรุงรักษา&lt;/span&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.212" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1350" y="293" />
+              <mxPoint x="1350" y="470" />
+              <mxPoint x="1180" y="470" />
+            </Array>
+            <mxPoint x="1180" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;entryX=0;entryY=0.25;entryDx=0;entryDy=0;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#123B6D;fontSize=13;fontColor=#18324B;labelBackgroundColor=#FFFFFF;" target="provider" value="ข้อมูลเครื่องชำรุด /&amp;nbsp;&lt;div&gt;สถิติพฤติกรรมการใช้งานจริง&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1180" y="420" />
+              <mxPoint x="1240" y="420" />
+              <mxPoint x="1240" y="238" />
+            </Array>
+            <mxPoint x="1180" y="420" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="system" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0.95;exitY=0.85;exitDx=0;exitDy=0;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#123B6D;fontSize=13;fontColor=#18324B;labelBackgroundColor=#FFFFFF;" value="ข้อมูลข้อความแจ้งเตือน&amp;nbsp;&lt;div&gt;(ผ้าใกล้เสร็จ / สิทธิ์คิวหลุด / เตือนรับผ้า)&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.006" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1260" y="577" />
+              <mxPoint x="1260" y="635" />
+            </Array>
+            <mxPoint x="1400" y="635" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="footer" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#CCCCCC;strokeWidth=1;fontColor=#666666;fontSize=14;align=left;spacingLeft=15;" value="การอ่านภาพนี้: Context Diagram ระบุ “ขอบเขตและการแลกเปลี่ยนข้อมูลของระบบจัดการเครื่องซักผ้าหอพัก” — ยังไม่ใช่หน้าจอ ฐานข้อมูล หรือการต่อวงจรบอร์ด IoT จริง" vertex="1">
+          <mxGeometry height="50" width="1630" x="80" y="930" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

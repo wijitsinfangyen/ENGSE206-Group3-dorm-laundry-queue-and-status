@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net" agent="ENGSE206">
+  <diagram id="laundry-stakeholder-matrix" name="Stakeholder Map">
+    <mxGraphModel dx="2005" dy="1029" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=26;fontStyle=1;fontColor=#168A87;" value="Dorm Laundry Queue And Status — Stakeholder Map" vertex="1">
+          <mxGeometry height="45" width="1000" x="80" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#666666;" value="Week 02 example: identify stakeholders beyond the visible end-user." vertex="1">
+          <mxGeometry height="30" width="1000" x="80" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="matrix" parent="1" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#F6F8FB;strokeColor=#B8C9D9;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="650" width="1400" x="220" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="vline" parent="1" style="shape=rectangle;fillColor=#B8C9D9;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="590" width="2" x="910" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="hline" parent="1" style="shape=rectangle;fillColor=#B8C9D9;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="2" width="1340" x="250" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="y-label" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=18;fontStyle=1;fontColor=#123B6D;align=center;rotation=-90;" value="อิทธิพล&lt;div&gt;(Power)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="140" x="90" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="x-label" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=18;fontStyle=1;fontColor=#123B6D;align=center;" value="ความสนใจ(Interest)" vertex="1">
+          <mxGeometry height="40" width="500" x="670" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="q1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=17;fontStyle=1;fontColor=#168A87;" value="ดูแลใกล้ชิด&#xa;(High interest / High influence)" vertex="1">
+          <mxGeometry height="50" width="360" x="980" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="sh_manager" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F8F4;strokeColor=#168A87;strokeWidth=3;fontColor=#168A87;fontStyle=1;fontSize=16;align=center;verticalAlign=middle;" value="ผู้ดูแลหอพัก บริหารหอพัก&amp;nbsp;&lt;div&gt;ไกล่เกลี่ยข้อพิพาท / ออกกฎควบคุม&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="330" x="1085" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="q2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=17;fontStyle=1;fontColor=#7155B8;" value="บริหารความคาดหวัง&#xa;(Low interest / High influence)" vertex="1">
+          <mxGeometry height="50" width="360" x="260" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="sh_vendor" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2EEFF;strokeColor=#7155B8;strokeWidth=3;fontColor=#7155B8;fontStyle=1;fontSize=16;align=center;verticalAlign=middle;" value="ผู้ให้บริการเครื่องซักผ้า เจ้าของสินทรัพย์&amp;nbsp;&lt;div&gt;&amp;nbsp;บำรุงรักษา / รับข้อมูลแจ้งซ่อม&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="340" x="370" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="q3" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=17;fontStyle=1;fontColor=#389C6A;" value="ให้ข้อมูลและรับฟัง&#xa;(High interest / Low influence)" vertex="1">
+          <mxGeometry height="50" width="380" x="980" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="sh_student" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF4FF;strokeColor=#1D6FC3;strokeWidth=3;fontColor=#1D6FC3;fontStyle=1;fontSize=16;align=center;verticalAlign=middle;" value="นักศึกษาหอพักผู้ใช้หลัก&amp;nbsp;&lt;div&gt;เจอ pain point เดินตรวจซ้ำและจองคิวทิพย์&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="330" x="1080" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="sh_maid" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF4FF;strokeColor=#1D6FC3;strokeWidth=3;fontColor=#1D6FC3;fontStyle=1;fontSize=16;align=center;verticalAlign=middle;" value="แม่บ้าน / เจ้าหน้าที่พื้นที่&#xa;ดูแลพื้นที่ซักล้าง / เจอผ้าตกค้างสะสม / กลัวกระทบกระทั่ง" vertex="1">
+          <mxGeometry height="100" width="330" x="1080" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="q4" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=17;fontStyle=1;fontColor=#E58327;" value="ติดตามตามความเหมาะสม&#xa;(Low interest / Low influence)" vertex="1">
+          <mxGeometry height="50" width="340" x="260" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="sh_notification" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E8;strokeColor=#E58327;strokeWidth=3;fontColor=#E58327;fontStyle=1;fontSize=16;align=center;verticalAlign=middle;" value="Notification Service (ระบบจำลอง)&#xa;กระจายข้อความแจ้งเตือนตามเงื่อนไขเวลาคิว" vertex="1">
+          <mxGeometry height="100" width="340" x="380" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="footer" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#CCCCCC;strokeWidth=1;fontColor=#666666;fontSize=14;align=left;spacingLeft=15;" value="ข้อสังเกต: “นักศึกษาหอพัก” เป็นผู้ใช้หลักที่เผชิญ pain point โดยตรง แต่การออกแบบมาตรการการรักษาสิทธิ์คิว (เช่น นามแฝง) และกติกาการปลดคิว No-show ต้องได้รับความเห็นชอบและเรียนรู้เงื่อนไขจาก “ผู้ดูแลหอพัก” และ “ผู้ให้บริการเครื่องซักผ้า” ด้วย" vertex="1">
+          <mxGeometry height="50" width="1630" x="80" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="pDvHTmg_If07zQ6xIw5r-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=18;fontStyle=1;fontColor=#123B6D;align=center;" value="สูง&lt;div&gt;(HIGH)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="90" x="115" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="pDvHTmg_If07zQ6xIw5r-2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=18;fontStyle=1;fontColor=#123B6D;align=center;" value="ต่ำ&lt;div&gt;(LOW)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="90" x="115" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="pDvHTmg_If07zQ6xIw5r-3" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=18;fontStyle=1;fontColor=#123B6D;align=center;" value="ต่ำ&lt;div&gt;(LOW)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="90" x="230" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="pDvHTmg_If07zQ6xIw5r-4" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=18;fontStyle=1;fontColor=#123B6D;align=center;" value="สูง&lt;div&gt;(HIGH)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="90" x="1520" y="825" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

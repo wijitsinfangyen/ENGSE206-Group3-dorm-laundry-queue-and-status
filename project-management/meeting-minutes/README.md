@@ -1,10 +1,3 @@
-# Meeting Minutes
-
-สร้างไฟล์รายครั้งในรูปแบบ `YYYY-MM-DD-weekXX-meeting.md`
-
-## Template
-
-```md
 # Meeting — [YYYY-MM-DD] — Week XX
 
 ## Participants
@@ -23,4 +16,3 @@
 | Task | Owner | Due | Related File |
 |---|---|---|---|
 | ... | ... | ... | ... |
-```

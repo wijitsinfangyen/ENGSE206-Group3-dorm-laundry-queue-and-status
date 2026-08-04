@@ -39,13 +39,12 @@
 
 | Need ID | Need statement | Based on E-ID(s) | Notes |
 | :---: | :--- | :---: | :--- |
-| **N-01** | Student Requester needs to see actual machine availability and queue status before coming down. | E-01 | ตอบโจทย์ EO-01 / OQ-01 |
-| **N-02** | Student Requester needs automated notification alerts before cycle completion and when queue is ready. | E-02 | ตอบโจทย์ EO-01 / OQ-02 |
-| **N-03** | Student Requester needs a fair No-show timeout policy to prevent holding queues remotely. | E-03 | ตอบโจทย์ EO-01 / OQ-01, OQ-02 |
-| **N-04** | Maid and Dorm Officer need an explicit workflow and logging interface for handling leftover clothes. | E-04 | ตอบโจทย์ EO-02 / OQ-03 |
-| **N-05** | Student and Dorm Officer need a fast mechanism to report and disable out-of-order machines. | E-05 | ตอบโจทย์ EO-02 / OQ-03 |
-| **N-06** | Student Requester needs public queue status to maintain privacy without disclosing PII. | E-06 | ตอบโจทย์ EO-03 / OQ-04 |
-
+| **N-01** |  นักศึกษาผู้ใช้บริการจำเป็นต้องเห็นสถานะเครื่องและคิวซักผ้าตามจริงก่อนเดินลงมาใช้งาน | E-01 | ตอบโจทย์ EO-01 / OQ-01 |
+| **N-02** | นักศึกษาผู้ใช้บริการต้องการระบบแจ้งเตือนอัตโนมัติก่อนเครื่องซักเสร็จและเมื่อถึงคิวของตนเอง | E-02 | ตอบโจทย์ EO-01 / OQ-02 |
+| **N-03** | นักศึกษาผู้ใช้บริการต้องการนโยบายการตัดสิทธิ์เมื่อไม่มาตามนัด (No-show timeout) ที่เป็นธรรมเพื่อป้องกันการกั๊กคิว | E-03 | ตอบโจทย์ EO-01 / OQ-01, OQ-02 |
+| **N-04** | แม่บ้านและผู้ดูแลหอพักต้องการขั้นตอนการทำงาน (Workflow) และหน้าบันทึกข้อมูลที่ชัดเจนในการจัดการผ้าค้างเครื่อง | E-04 | ตอบโจทย์ EO-02 / OQ-03 |
+| **N-05** | นักศึกษาและผู้ดูแลหอพักต้องการกลไกที่รวดเร็วในการแจ้งและปิดใช้งานเครื่องซักผ้าที่ชำรุด | E-05 | ตอบโจทย์ EO-02 / OQ-03 |
+| **N-06** | นักศึกษาผู้ใช้บริการต้องการให้หน้าจอแสดงสถานะคิวสาธารณะคุ้มครองความเป็นส่วนตัวโดยไม่เปิดเผยข้อมูล PII | E-06 | ตอบโจทย์ EO-03 / OQ-04 |
 ---
 
 ## 5. Unknowns / Follow-up for Week 05

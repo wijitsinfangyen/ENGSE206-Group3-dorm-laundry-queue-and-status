@@ -15,12 +15,12 @@
 
 | RC-ID | Requirement Candidate | Stakeholder / Need | Evidence E-ID(s) | Status | Follow-up |
 | :---: | :--- | :---: | :---: | :---: | :--- |
-| **RC-01** | The system should display real-time/simulated availability status and current queue depth for each washing machine before a user joins the queue. | Student Requester / N-01 | E-01 | Candidate | Verify data source of status updates |
-| **RC-02** | The system should send automated notification alerts to the user 5 minutes before cycle completion and when it is their turn in queue. | Student Requester / N-02 | E-02 | Needs Validation | Confirm notification channel & timing |
-| **RC-03** | The system should automatically cancel a queue reservation if the user fails to confirm presence within the specified timeout limit (e.g., 5-10 mins). | Student Requester / N-03 | E-03 | Needs Validation | Confirm exact timeout duration with Dorm Officer |
-| **RC-04** | The system should provide a dedicated logging interface for maids to mark and track moved leftover clothes to specified basket/shelf locations. | Maid, Dorm Officer / N-04 | E-04 | Candidate | Confirm logging fields and SOP rules |
-| **RC-05** | The system should allow users to report out-of-order machines and allow dorm officers to disable booking for affected machines immediately. | Student, Dorm Officer / N-05 | E-05 | Candidate | Confirm authorization roles for status override |
-| **RC-06** | The system should mask all personal identifiable information (PII) on public status displays, showing only anonymous queue IDs. | Student Requester / N-06 | E-06 | Candidate | Confirm display format for public UI |
+| **RC-01** | ระบบต้องแสดงสถานะความว่างและจำนวนคิวรอจริง (หรือสถานะจำลอง) ของเครื่องซักผ้าแต่ละเครื่อง ก่อนผู้ใช้จะกดเข้าคิว | นักศึกษาผู้ใช้บริการ / N-01 | E-01 | Candidate | ตรวจสอบแหล่งข้อมูลการอัปเดตสถานะ (Sensor vs Simulation) |
+| **RC-02** | ระบบต้องส่งการแจ้งเตือนอัตโนมัติไปยังผู้ใช้ ล่วงหน้า 5 นาทีก่อนเครื่องซักเสร็จ และเมื่อถึงคิวของตนเอง | นักศึกษาผู้ใช้บริการ / N-02 | E-02 | Needs Validation | ยืนยันช่องทางการแจ้งเตือนและกรอบเวลาที่เหมาะสม |
+| **RC-03** | ระบบต้องยกเลิกสิทธิ์การจองคิวอัตโนมัติ หากผู้ใช้ไม่มา ยืนยันตัวตนเพื่อใช้งานภายในเวลาที่กำหนด (เช่น 5-10 นาที) | นักศึกษาผู้ใช้บริการ / N-03 | E-03 | Needs Validation | ยืนยันระยะเวลา No-show Timeout ที่แน่นอนร่วมกับผู้ดูแลหอพัก |
+| **RC-04** | ระบบต้องมีหน้าจอบันทึกข้อมูลเฉพาะสำหรับแม่บ้าน ในการระบุและติดตามตำแหน่งที่ย้ายผ้าค้างเครื่องไปวาง | แม่บ้าน, ผู้ดูแลหอพัก / N-04 | E-04 | Candidate | ยืนยันฟิลด์ข้อมูลที่ต้องบันทึกและกฎระเบียบ SOP |
+| **RC-05** | ระบบต้องเปิดให้ผู้ใช้รายงานเครื่องเสีย และอนุญาตให้ผู้ดูแลหอพักกดปิดรับคิวเครื่องที่ชำรุดได้ทันที | นักศึกษา, ผู้ดูแลหอพัก / N-05 | E-05 | Candidate | ยืนยันขอบเขตสิทธิ์ (Authority) ในการเปลี่ยนสถานะเครื่อง |
+| **RC-06** | ระบบต้องปกปิดข้อมูลส่วนบุคคล (PII) บนหน้าจอแสดงผลสาธารณะ โดยแสดงเพียงรหัสคิวแบบไม่ระบุตัวตน (Anonymous) | นักศึกษาผู้ใช้บริการ / N-06 | E-06 | Candidate | ยืนยันรูปแบบการแสดงผลข้อมูลบน UI สาธารณะ |
 
 ---
 

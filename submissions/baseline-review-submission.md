@@ -43,11 +43,11 @@
 
 | # | เกณฑ์ | ผ่าน? | ลิงก์หลักฐาน |
 |---:|---|:--:|---|
-| 1 | docs/01–05 ครบและอัปเดตล่าสุด | [x] | `https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/tree/baseline-v1.0/docs/` |
+| 1 | docs/01–05 ครบและอัปเดตล่าสุด | [x] | [`https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/tree/baseline-v1.0/docs/`](https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/blob/main/evidence/week-05/baseline-review/health-check.md) |
 | 2 | ทุก Must ลากถึง Evidence + Stakeholder | [x] | [`https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/blob/main/docs/08-validation-traceability.md`](https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/blob/main/docs/08-validation-traceability.md) |
 | 3 | FR/NFR ทุกข้อวัด/ทดสอบได้ ไม่กำกวม | [x] | [`https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/blob/main/docs/08-validation-traceability.md`](https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/blob/main/docs/08-validation-traceability.md) |
-| 4 | ผ่าน Peer Cross-Review 1 รอบ | [x] | `https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/tree/baseline-v1.0/evidence/week-05/baseline-review/` |
-| 5 | commit + tag baseline-v1.0 แล้ว | [x] | `https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/releases/tag/baseline-v1.0` |
+| 4 | ผ่าน Peer Cross-Review 1 รอบ | [x] | [`https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/tree/baseline-v1.0/evidence/week-05/baseline-review/`](https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/blob/main/evidence/week-05/baseline-review/peer-cross-review.md) |
+| 5 | commit + tag baseline-v1.0 แล้ว | [x] | [`https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/releases/tag/baseline-v1.0`](https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/releases/tag/baseline-v1.0) |
 
 ## 5. Team Contribution (บทบาทในกิจกรรม)
 

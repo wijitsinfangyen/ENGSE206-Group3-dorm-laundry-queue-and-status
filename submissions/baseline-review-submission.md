@@ -14,7 +14,7 @@
 | Case ID / Case URL | [Case 03: ระบบจองคิวและติดตามสถานะเครื่องซักผ้าหอพัก](https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/blob/main/CASE_CARD.md) |
 | Baseline tag | `baseline-v1.0` |
 | Tag URL | [https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/releases/tag/baseline-v1.0](https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/releases/tag/baseline-v1.0) |
-| Submitted at | 2026-08-19 15:08 |
+| Submitted at | 2026-08-18 23:20 |
 
 ## 2. Deliverables — แนบลิงก์ (pin ที่ baseline-v1.0)
 

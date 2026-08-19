@@ -1,0 +1,10 @@
+# Decision Log: Dorm Laundry Queue and Status
+
+> ใช้สำหรับการตัดสินใจที่มีผลต่อ scope, requirement, architecture, UX/UI หรือ detailed design
+
+| ID | Date | Decision | Options Considered | Rationale | Impacted Artefacts | Owner |
+|---|---|---|---|---|---|---|
+| D-01 | 2026-08-19 | ปรับข้อความ FR/NFR ทั้งหมดให้มีตัวเลขเกณฑ์วัดได้ (Verifiable Criteria) เช่น เวลายกเลิกคิว (10 นาที) และความเร็วระบบ (3 วินาที) | Option A: ใช้คำบรรยายทั่วไป <br>Option B: กำหนดเกณฑ์ตัวเลขและเงื่อนไขวัดได้เชิงปริมาณ | ผ่านเกณฑ์ Quality Check ตามมาตรฐานวิศวกรรมซอฟต์แวร์ ช่วยให้เขียน Acceptance Criteria ใน Week 06 ได้ตรงจุดและทดสอบได้จริง | `docs/05-requirement-backlog.md`, `docs/08-validation-traceability.md` | ปฐมพร (Auditor) |
+| D-02 | 2026-08-19 | เลือกใช้วิธีซ่อนข้อมูลส่วนบุคคล (PII) บนหน้าจอคิวสาธารณะ โดยแสดงเฉพาะรหัสคิวสุ่ม (Anonymous Queue ID) | Option A: แสดงชื่อและเลขห้องเพื่อให้ตามตัวง่าย <br>Option B: ปิดบังข้อมูลส่วนบุคคลทั้งหมดและแสดงเฉพาะรหัสคิว | สมดุลระหว่างการปฏิบัติตามกฎหมาย PDPA การรักษาความปลอดภัยของผู้พักอาศัย และการมองเห็นสถานะคิวรวม | `docs/05-requirement-backlog.md`, `docs/08-validation-traceability.md` | วิจิตรศิลป์ (Facilitator) |
+| D-03 | 2026-08-19 | ไม่ยกระดับประเด็น "สถาปัตยกรรม IoT Sensor" และ "นโยบายพื้นที่จัดการผ้าค้างเครื่อง" เป็น Requirement จนกว่าจะได้รับอนุมัติจากหอพัก | Option A: ทีมกำหนดให้บังคับใช้ IoT และเพิ่มกฎย้ายผ้าทันที <br>Option B: บันทึกเป็น Issue / Open Question รออนุมัติ (ใช้ Timer Simulation จำลองเวลาไปก่อน) | ป้องกันการสร้าง requirement จากความรู้สึกหรือสมมติฐานของทีมโดยยังไม่ได้รับการยืนยันข้อจำกัดด้านงบประมาณและนโยบายจริง | `docs/05-requirement-backlog.md`, `docs/05-open-questions-and-issues.md` | พสิษฐิ์ (Checker) |
+| D-04 | 2026-08-19 | อนุมัติการล็อกฐานความต้องการเป็น Baseline v1.0 | Option A: ปรับแก้ไปเรื่อยๆ <br>Option B: ล็อก Baseline v1.0 เพื่อเริ่มทำ Requirement Models ใน Week 06 | ผ่านเกณฑ์ Readiness Gate ครบทั้ง 5 ข้อ ทำให้ทีมมีจุดอ้างอิงนิ่งในการออกแบบซอฟต์แวร์และเขียน Use Case | `docs/01` ถึง `docs/08`, `git tag baseline-v1.0` | วิจิตรศิลป์ (Facilitator) |

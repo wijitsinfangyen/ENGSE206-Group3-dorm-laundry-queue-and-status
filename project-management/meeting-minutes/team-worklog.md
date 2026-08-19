@@ -1,0 +1,24 @@
+# Team Worklog: Dorm Laundry Queue and Status (Group 03) 
+
+> ทุกคนเติมอย่างน้อย 1 รายการต่อสัปดาห์เมื่อมีงานของรายวิชา
+
+| Date | Week | Member | Role | Task / Contribution | Artefact / File Changed | Commit / Evidence Link | Time Spent | Status |
+|---|---:|---|---|---|---|---|---:|---|
+| 2026-07-05 | 1 | วิจิตรศิลป์ ฟังเย็น | Facilitator / Requirements Lead | วิเคราะห์ Case-03 จัดทำภาพรวมโครงงาน, In/Out scope, เป้าหมายผลลัพธ์ และแยก Facts/Assumptions | `docs/01-problem-brief-v0.1.md` | Commit: w01 project-profile | 3.0 hr | Done |
+| 2026-07-05 | 1 | ปฐมพร หลีจาง | Scribe / Traceability Auditor | สรุป Problem Statement, Pain Points (PP-01..PP-04) และ Initial User Needs | `docs/01-problem-brief-v0.1.md` | Commit: problem brief v0.1 | 2.0 hr | Done |
+| 2026-07-05 | 1 | พสิษฐิ์ เพชรอำพันธ์ุ | Quality Checker | ตรวจสอบ Stakeholder เริ่มต้น เป้าหมายระบบ (G-01..G-03) และเงื่อนไขข้อจำกัด (Constraints) | `docs/01-problem-brief-v0.1.md` | Commit: w01 constraint check | 1.5 hr | Done |
+| 2026-07-13 | 2 | วิจิตรศิลป์ ฟังเย็น | Facilitator | จัดทำเอกสาร Stakeholder Context, Scope และระบุ External System (Timer Simulation / Notification) | `docs/02-stakeholder-context-scope.md` | Commit: w02 context & scope | 2.5 hr | Done |
+| 2026-07-13 | 2 | พสิษฐิ์ เพชรอำพันธ์ุ | Designer | สร้าง System Context Diagram และ Stakeholder Map ของระบบคิวเครื่องซักผ้า | `diagrams/context/w02-system-context.drawio.xml`, `diagrams/stakeholders/w02-stakeholder-map.drawio.xml` | Commit: w02 diagrams | 3.0 hr | Done |
+| 2026-07-13 | 2 | ปฐมพร หลีจาง | Scribe / Reviewer | รวบรวม Peer Feedback บันทึกการแก้ไข Data Flow และบันทึก Worklog | `feedback/week-02-peer-feedback.md`, `project-management/week-02-week-03-worklog.md` | Commit: w02 peer feedback | 2.0 hr | Done |
+| 2026-08-03 | 3 | วิจิตรศิลป์ ฟังเย็น | Interviewer / Facilitator | ออกแบบคู่มือสัมภาษณ์ (นักศึกษาหอพัก, ผู้ดูแลหอพัก, แม่บ้าน) ซ้อมคำถาม และแยกคำถามติดตาม | `docs/03-interview-guide.md` | Commit: w03 interview prep | 3.0 hr | Done |
+| 2026-08-03 | 3 | ปฐมพร หลีจาง | Elicitation Planner | เชื่อม Open Questions กับ Stakeholder, Elicitation Technique และ Expected Evidence | `docs/03-elicitation-plan.md` | Commit: w03 elicitation plan | 3.0 hr | Done |
+| 2026-08-03 | 3 | พสิษฐิ์ เพชรอำพันธ์ุ | Note-taker / Checker | บันทึก Rehearsal notes และตรวจสอบความลำเอียงของคำถาม (Bias check) ก่อนสัมภาษณ์จริง | `evidence/week-03/question-rehearsal-notes.md` | Commit: w03 rehearsal check | 2.0 hr | Done |
+| 2026-08-04 | 4 | วิจิตรศิลป์ ฟังเย็น | Evidence Owner / Facilitator | สรุป Simulation Evidence (E-01..E-06) และบันทึก Unknowns สำคัญ (เช่น นโยบายจัดการผ้าค้าง) | `docs/04-evidence-log.md` | Commit: w04 evidence | 2.5 hr | Done |
+| 2026-08-04 | 4 | ปฐมพร หลีจาง | Scribe | แปลง Evidence เป็น Requirement Candidates (RC-01..RC-06) พร้อมระบุ Follow-up | `docs/04-evidence-log.md` | Commit: w04 candidates | 2.5 hr | Done |
+| 2026-08-04 | 4 | พสิษฐิ์ เพชรอำพันธ์ุ | Conflict Analyst | วิเคราะห์ Issue ข้อจำกัดด้านการทำ IoT Sensor กับการจำลองเวลา และสิทธิ์การกดปิดเครื่องเสีย | `docs/04-evidence-log.md` | Commit: w04 conflict analysis | 2.0 hr | Done |
+| 2026-08-11 | 5 | วิจิตรศิลป์ ฟังเย็น | Facilitator | จัดลำดับความสำคัญด้วย MoSCoW, ตรวจสอบ Scope ตัดระบบชำระเงินออนไลน์ออก (Won't) | `docs/05-requirement-backlog.md`, `docs/05-prioritization-rationale.md` | Commit: w05 backlog draft | 2.5 hr | Done |
+| 2026-08-11 | 5 | ปฐมพร หลีจาง | Scribe / Traceability Auditor | เชื่อมโยง Need Trace กับ Evidence ลง Backlog สร้าง FR, NFR, BR | `docs/05-requirement-backlog.md` | Commit: w05 trace mapping | 2.5 hr | Done |
+| 2026-08-11 | 5 | พสิษฐิ์ เพชรอำพันธ์ุ | Quality Checker | กำหนด Acceptance measure ให้วัดผลได้ (เช่น เวลา 10 นาที, Latency 3s, รองรับ 50 users) | `docs/05-requirement-backlog.md` | Commit: w05 acceptance criteria | 2.0 hr | Done |
+| 2026-08-19 | 5 | วิจิตรศิลป์ ฟังเย็น | Facilitator | ดำเนินการช่วงที่ 0 (Setup) และช่วงที่ 6 (Readiness Gate Lock) ตรวจสอบสาย Traceability ลากครบ 100% | `docs/08-validation-traceability.md`, `evidence/week-05/baseline-review/` | Commit: docs: baseline review & gate lock | 2.0 hr | Done |
+| 2026-08-19 | 5 | ปฐมพร หลีจาง | Traceability Auditor | ดำเนินการช่วงที่ 2 (Traceability Audit) สร้างตาราง 3 Must Check Form และบันทึก Open Questions | `docs/08-validation-traceability.md`, `docs/05-open-questions-and-issues.md` | Commit: docs: gap and traceability | 2.0 hr | Done |
+| 2026-08-19 | 5 | พสิษฐิ์ เพชรอำพันธ์ุ | Quality Checker / Timekeeper | ดำเนินการช่วงที่ 1 (Health Check), 3 (Quality Check), 4 (Cross-Review) และบันทึก Decision Log | `project-management/decision-log.md`, `evidence/week-05/baseline-review/health-check.md` | Commit: docs: quality check & decision log | 2.0 hr | Done |

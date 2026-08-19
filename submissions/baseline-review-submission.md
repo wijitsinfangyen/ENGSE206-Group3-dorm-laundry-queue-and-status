@@ -22,12 +22,12 @@
 
 | # | ชิ้นงาน | ลิงก์ (permalink ที่ baseline-v1.0) | Owner | ✔ |
 |---:|---|---|---|:--:|
-| 1 | Backlog ที่แก้แล้ว | [`https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/blob/baseline-v1.0/docs/05-requirement-backlog.md`](https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/blob/main/docs/05-open-questions-and-issues.md) | ปฐมพร  หลีจาง | [x] |
-| 2 | Traceability + Gap | [`https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/blob/baseline-v1.0/docs/08-validation-traceability.md`](https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/blob/main/docs/08-validation-traceability.md) | วิจิตรศิลป์  ฟังเย็น | [x] |
-| 3 | Health Check + Cross-Review | [`https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/tree/baseline-v1.0/evidence/week-05/baseline-review/`](https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/tree/main/evidence/week-05) | พสิษฐิ์  เพชรอำพันธ์ุ | [x] |
-| 4 | Decision log | [`https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/blob/baseline-v1.0/project-management/decision-log.md`](https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/blob/main/project-management/meeting-minutes/decision-log.md) | ปฐมพร  หลีจาง | [x] |
-| 5 | Team worklog | [`https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/blob/baseline-v1.0/project-management/team-worklog.md`](https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/blob/main/project-management/meeting-minutes/team-worklog.md) | วิจิตรศิลป์  ฟังเย็น | [x] |
-| 6 | Reflection รายคน | [`https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/blob/baseline-v1.0/feedback/15-individual-reflection.md`](https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/blob/main/feedback/15-individual-reflection.md) | พสิษฐิ์  เพชรอำพันธ์ุ | [x] |
+| 1 | Backlog ที่แก้แล้ว | [`https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/blob/baseline-v1.0/docs/05-requirement-backlog.md`](https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/blob/main/docs/05-open-questions-and-issues.md) | ปฐมพร  หลีจาง | [✔] |
+| 2 | Traceability + Gap | [`https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/blob/baseline-v1.0/docs/08-validation-traceability.md`](https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/blob/main/docs/08-validation-traceability.md) | วิจิตรศิลป์  ฟังเย็น | [✔] |
+| 3 | Health Check + Cross-Review | [`https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/tree/baseline-v1.0/evidence/week-05/baseline-review/`](https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/tree/main/evidence/week-05/baseline-review) | พสิษฐิ์  เพชรอำพันธ์ุ | [✔] |
+| 4 | Decision log | [`https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/blob/baseline-v1.0/project-management/decision-log.md`](https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/tree/main/evidence/week-05/baseline-review) | ปฐมพร  หลีจาง | [✔] |
+| 5 | Team worklog | [`https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/blob/baseline-v1.0/project-management/team-worklog.md`](https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/blob/main/project-management/meeting-minutes/team-worklog.md) | วิจิตรศิลป์  ฟังเย็น | [✔] |
+| 6 | Reflection รายคน | [`https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/blob/baseline-v1.0/feedback/15-individual-reflection.md`](https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/blob/main/feedback/15-individual-reflection.md) | พสิษฐิ์  เพชรอำพันธ์ุ | [✔] |
 
 ## 3. Traceability Highlights — 3 Must (ลิงก์เจาะจงบรรทัด)
 
@@ -43,11 +43,11 @@
 
 | # | เกณฑ์ | ผ่าน? | ลิงก์หลักฐาน |
 |---:|---|:--:|---|
-| 1 | docs/01–05 ครบและอัปเดตล่าสุด | [x] | [`https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/tree/baseline-v1.0/docs/`](https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/blob/main/evidence/week-05/baseline-review/health-check.md) |
-| 2 | ทุก Must ลากถึง Evidence + Stakeholder | [x] | [`https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/blob/main/docs/08-validation-traceability.md`](https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/blob/main/docs/08-validation-traceability.md) |
-| 3 | FR/NFR ทุกข้อวัด/ทดสอบได้ ไม่กำกวม | [x] | [`https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/blob/main/docs/08-validation-traceability.md`](https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/blob/main/docs/08-validation-traceability.md) |
-| 4 | ผ่าน Peer Cross-Review 1 รอบ | [x] | [`https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/tree/baseline-v1.0/evidence/week-05/baseline-review/`](https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/blob/main/evidence/week-05/baseline-review/peer-cross-review.md) |
-| 5 | commit + tag baseline-v1.0 แล้ว | [x] | [`https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/releases/tag/baseline-v1.0`](https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/releases/tag/baseline-v1.0) |
+| 1 | docs/01–05 ครบและอัปเดตล่าสุด | [✔] | [`https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/tree/baseline-v1.0/docs/`](https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/blob/main/evidence/week-05/baseline-review/health-check.md) |
+| 2 | ทุก Must ลากถึง Evidence + Stakeholder | [✔] | [`https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/blob/main/docs/08-validation-traceability.md`](https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/blob/main/docs/08-validation-traceability.md) |
+| 3 | FR/NFR ทุกข้อวัด/ทดสอบได้ ไม่กำกวม | [✔] | [`https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/blob/main/docs/08-validation-traceability.md`](https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/blob/main/docs/08-validation-traceability.md) |
+| 4 | ผ่าน Peer Cross-Review 1 รอบ | [✔] | [`https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/tree/baseline-v1.0/evidence/week-05/baseline-review/`](https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/blob/main/evidence/week-05/baseline-review/peer-cross-review.md) |
+| 5 | commit + tag baseline-v1.0 แล้ว | [✔] | [`https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/releases/tag/baseline-v1.0`](https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/releases/tag/baseline-v1.0) |
 
 ## 5. Team Contribution (บทบาทในกิจกรรม)
 
@@ -73,9 +73,9 @@
 |---|---|
 | Commit message | `submit(w05): lock requirement baseline v1.0` |
 | Commit hash (ตอน tag) | [นำรหัส Hash หลังจากรันคำสั่ง git commit มาใส่ที่นี่ เช่น 7a1f2b3] |
-| Tag pushed? | [x] `git push origin baseline-v1.0` แล้ว |
-| ตรวจลิงก์เปิดได้ (Incognito) | [x] เปิดได้ทุกลิงก์ |
-| ลิงก์วางใน Google Sheet (คอลัมน์ RBR) | [x] วางแล้ว และคลิกเปิดได้ |
+| Tag pushed? | [✔] `git push origin baseline-v1.0` แล้ว |
+| ตรวจลิงก์เปิดได้ (Incognito) | [✔] เปิดได้ทุกลิงก์ |
+| ลิงก์วางใน Google Sheet (คอลัมน์ RBR) | [✔] วางแล้ว และคลิกเปิดได้ |
 
 ## 8. Revision after Feedback (ถ้ามี)
 

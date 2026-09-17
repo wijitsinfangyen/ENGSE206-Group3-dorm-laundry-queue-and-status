@@ -295,7 +295,7 @@ And หน้าจอต้องจัดวางองค์ประกอ�
 ### 5.1 Use Case Diagram
 ความสัมพันธ์ระหว่างกลุ่มผู้ใช้งานหลักกับ Use Cases ทั้งหมดของระบบ Dorm Laundry Queue and Status
 
-![Use Case Diagram: ระบบจัดการคิวและสถานะเครื่องซักผ้าในหอพัก](diagrams/use-case-diagram.png)
+![Use Case Diagram: ระบบจัดการคิวและสถานะเครื่องซักผ้าในหอพัก](diagrams/use-case/use-case-diagram.png)
 
 *ไฟล์ต้นฉบับ (แก้ไขได้): `diagrams/use-case-diagram.drawio`*
 

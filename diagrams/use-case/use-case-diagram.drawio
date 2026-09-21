@@ -1,0 +1,104 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="btuvxR3iXp4il-SGYg1U">
+    <mxGraphModel dx="2000" dy="1475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="boundary" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fontSize=14;align=center;spacingTop=10;" value="ระบบจัดการคิวและสถานะเครื่องซักผ้าในหอพัก" vertex="1">
+          <mxGeometry height="910" width="1110" x="-80" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WQpg1ivKc7gZYc5nM0Oh-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="" vertex="1">
+          <mxGeometry height="742.5" width="720" x="170" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uc01" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="UC-01: ดูสถานะเครื่องและคิว" vertex="1">
+          <mxGeometry height="60" width="380" x="260" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="uc02" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="UC-02: จองคิวซักผ้า" vertex="1">
+          <mxGeometry height="60" width="380" x="260" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="uc03" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="UC-03: แจ้งเครื่องเสีย" vertex="1">
+          <mxGeometry height="60" width="380" x="260" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="uc04" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="UC-04: จัดการสถานะเครื่อง (ปิดปรับปรุง)" vertex="1">
+          <mxGeometry height="60" width="380" x="260" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="UC-05: บันทึกตำแหน่งผ้าที่ย้าย" vertex="1">
+          <mxGeometry height="60" width="380" x="260" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="uc06" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="UC-06: ดูแดชบอร์ดและรายงานการใช้งาน" vertex="1">
+          <mxGeometry height="60" width="380" x="260" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="inc1" parent="1" style="ellipse;whiteSpace=wrap;html=1;dashed=1;" value="&amp;lt;&amp;gt;&#xa;ปกปิดข้อมูลส่วนบุคคล" vertex="1">
+          <mxGeometry height="70" width="190" x="680" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="inc2" parent="1" style="ellipse;whiteSpace=wrap;html=1;dashed=1;" value="&amp;lt;&amp;gt;&#xa;ส่งการแจ้งเตือน" vertex="1">
+          <mxGeometry height="70" width="190" x="680" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="ext1" parent="1" style="ellipse;whiteSpace=wrap;html=1;dashed=1;" value="&amp;lt;&amp;gt;&#xa;ยกเลิกคิวอัตโนมัติ (No-show)" vertex="1">
+          <mxGeometry height="70" width="190" x="680" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="actorStudent" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;" value="นักศึกษาหอพัก" vertex="1">
+          <mxGeometry height="80" width="40" x="50" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="actorMaid" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;" value="แม่บ้าน / เจ้าหน้าที่พื้นที่" vertex="1">
+          <mxGeometry height="80" width="40" x="50" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="actorAdmin" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;" value="ผู้ดูแลหอพัก" vertex="1">
+          <mxGeometry height="80" width="40" x="50" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="actorNotify" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;" value="ระบบแจ้งเตือน" vertex="1">
+          <mxGeometry height="80" width="40" x="920" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="actorProvider" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;" value="ผู้ให้บริการเครื่องซักผ้า" vertex="1">
+          <mxGeometry height="80" width="40" x="930" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="actorStudent" style="endArrow=none;html=1;fontColor=light-dark(#333333, #000000);" target="uc01">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="actorStudent" style="endArrow=none;html=1;fontColor=light-dark(#333333, #000000);" target="uc02">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="actorStudent" style="endArrow=none;html=1;fontColor=light-dark(#333333, #000000);" target="uc03">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="actorMaid" style="endArrow=none;html=1;fontColor=light-dark(#333333, #000000);" target="uc05">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="actorAdmin" style="endArrow=none;html=1;fontColor=light-dark(#333333, #000000);" target="uc04">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="actorAdmin" style="endArrow=none;html=1;fontColor=light-dark(#333333, #000000);" target="uc06">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="uc01" style="dashed=1;html=1;endArrow=open;endFill=0;fontSize=10;fontColor=light-dark(#333333, #f0f0f0);" target="inc1" value="&amp;lt;&amp;gt;">
+          <mxGeometry relative="1" x="0.0099" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="uc02" style="dashed=1;html=1;endArrow=open;endFill=0;fontSize=10;fontColor=light-dark(#333333, #f5f5f5);" target="inc2" value="&amp;lt;&amp;gt;">
+          <mxGeometry relative="1" x="0.0144" y="-3" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="ext1" style="dashed=1;html=1;endArrow=open;endFill=0;fontSize=10;fontColor=light-dark(#333333, #f5f5f5);" target="uc02" value="&amp;lt;&amp;gt;">
+          <mxGeometry relative="1" x="0.0036" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="inc2" style="endArrow=none;html=1;fontColor=light-dark(#333333, #000000);" target="actorNotify">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="uc04" style="endArrow=open;endFill=0;html=1;fontSize=10;fontColor=light-dark(#333333, #f5f0f0);" target="actorProvider" value="แจ้งเครื่องเสีย">
+          <mxGeometry relative="1" x="0.1267" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="uc06" style="endArrow=open;endFill=0;html=1;fontSize=10;fontColor=light-dark(#333333, #fffafa);" target="actorProvider" value="ส่งสถิติการใช้งาน">
+          <mxGeometry relative="1" x="-0.0029" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

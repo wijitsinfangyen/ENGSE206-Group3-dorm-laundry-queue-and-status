@@ -11,6 +11,6 @@
 3. กรอกหลักฐาน commit จริงในใบส่งงาน แล้ว push และเปิด PR เข้า `main` ชื่อ `submit(final): change-to-design take-home` ไม่ merge เอง
 4. เติม URL PR และ hash ของ commit ชุดส่งจริง อย่านำ hash ของ SRS ฐานมาแทน
 
-พสิษฐิ์มี commit G3/G5 แล้วที่ `410676027237260b4552ab2ce7feb30f3f3c6ec2` ส่วน Word และไฟล์รวมบันทึกใน commit ถัดไป ยังรอหลักฐานส่วนของเพื่อนและ PR ดูผลตรวจใน `audit-report.md` และสถานะรอใน `final-exam-submission.md`
+หลักฐานสมาชิกครบแล้ว: วิจิตรศิลป์ `734986d`, พสิษฐิ์ `4106760` / `20bd38f`, ปฐมพร `85c2165` อัปเดต Word และใบส่งงานด้วย hash จริงแล้ว ดู URL PR และสถานะใน `final-exam-submission.md` ไม่ merge PR เอง
 
 เมื่อใช้ ZIP ให้วางโฟลเดอร์ `final-exam/` ภายใน repository กลุ่ม ไม่คัดลอก docs/design ของกลุ่มอื่นมาทับงานเดิม ส่วน ข รายบุคคลไม่รวมในชุดนี้

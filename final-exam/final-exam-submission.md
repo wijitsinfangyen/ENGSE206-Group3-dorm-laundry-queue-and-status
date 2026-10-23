@@ -7,8 +7,9 @@
 | Repository | https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status |
 | CR เสริมที่เลือก | CR-FX-02B เวลาเหลือครึ่งหนึ่ง — Pending |
 | Branch | final-exam |
-| Pull Request | รอเปิด PR ชื่อ submit(final): change-to-design take-home เข้า main |
-| Commit hash สุดท้ายของชุดส่ง | รอกรอกจาก commit จริงหลังสมาชิกบันทึกงาน — ไม่ใช้ hash ฐานแทน hash ชุดส่ง |
+| Pull Request | [#2 submit(final): change-to-design take-home](https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/pull/2) เข้า main |
+| Commit hash ของคำตอบที่ตรวจครบ | `c9bbec3c45120d268a72b29963a99bba2252bab5` — snapshot ของ Word และหลักฐานสมาชิกก่อน commit เติม URL PR ในใบส่งงาน |
+| Commit ล่าสุดของชุดส่ง | ดู SHA ของ HEAD ล่าสุดใน [commits ของ PR #2](https://github.com/wijitsinfangyen/ENGSE206-Group3-dorm-laundry-queue-and-status/pull/2/commits); SHA เต็มระบุในรายละเอียด PR เพื่อให้รวม commit metadata ของใบส่งงานนี้ด้วย |
 | สถานะ SRS ที่ใช้เป็นฐาน | CASE03-SRS-W07-v1, 1.0-draft / Baseline Candidate |
 
 ## งานเดิมที่ใช้เป็นฐาน
@@ -47,8 +48,8 @@
 - [x] งานสอบใหม่อยู่ใน final-exam/ และไม่แก้ไฟล์รายสัปดาห์
 - [ ] สมาชิกเปิด source .drawio ทั้งสองภาพในแอปและตรวจว่าตรง PNG
 - [x] ทุกคนมี commit ส่วนของตนตามชื่อผู้เขียนจริงใน Git และกรอกหลักฐานแล้ว: วิจิตรศิลป์ 734986d, พสิษฐิ์ 4106760/20bd38f, ปฐมพร 85c2165
-- [ ] push branch final-exam และเปิด PR ชื่อตามกำหนด (ไม่ merge เอง)
-- [ ] เติม commit hash ชุดส่งและ URL PR จริง
+- [x] push branch final-exam และเปิด PR #2 ชื่อตามกำหนด โดยไม่ merge
+- [x] เติม hash snapshot คำตอบและ URL PR จริง; HEAD ล่าสุดของการส่งอ้างจาก commits และรายละเอียด PR ไม่อ้างว่า snapshot ก่อน metadata เป็น commit ล่าสุด
 
 ## กำหนดเวลา
 

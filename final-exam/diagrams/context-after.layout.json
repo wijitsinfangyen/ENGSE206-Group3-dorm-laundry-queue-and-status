@@ -1,0 +1,164 @@
+{
+  "width": 1600,
+  "height": 1000,
+  "title": "System Context after CR-FX-01",
+  "subtitle": "Case 03 | CR-FX-02B selected | Design Draft / Proposed | CRs Pending",
+  "footer": "Solid: proposed first release   |   Dashed: Overview / TBD; external delivery Later   |   No hardware or payment integration",
+  "boxes": [
+    {
+      "id": "ACT-01",
+      "x": 50,
+      "y": 160,
+      "w": 280,
+      "h": 160,
+      "text": "ACT-01  Resident\n[Person / Core]\nView status; book queue\nChoose external opt-in",
+      "kind": "actor"
+    },
+    {
+      "id": "ACT-02",
+      "x": 50,
+      "y": 440,
+      "w": 280,
+      "h": 160,
+      "text": "ACT-02  Dorm Admin\n[Person / Core]\nOpen / close machines\nReview faults; read audit",
+      "kind": "actor"
+    },
+    {
+      "id": "ACT-03",
+      "x": 50,
+      "y": 720,
+      "w": 280,
+      "h": 150,
+      "text": "ACT-03  Maid\n[Person / Core]\nRecord relocated laundry\nDetail after 02B: Overview",
+      "kind": "actor"
+    },
+    {
+      "id": "SYS-01",
+      "x": 620,
+      "y": 340,
+      "w": 400,
+      "h": 290,
+      "text": "SYS-01\nDorm Laundry Queue and Status\n[Software System / Core]\nQueue and machine status\nStored private notice history\nTimed reminders; audit read",
+      "kind": "core"
+    },
+    {
+      "id": "EXT-01",
+      "x": 1260,
+      "y": 400,
+      "w": 290,
+      "h": 200,
+      "text": "EXT-01\nExternal Notification Channel\n[External System]\nExtension / TBD\nActual delivery: Later",
+      "kind": "external"
+    }
+  ],
+  "edges": [
+    {
+      "id": "E1",
+      "source": "ACT-01",
+      "target": "SYS-01",
+      "points": [
+        [
+          330,
+          240
+        ],
+        [
+          500,
+          240
+        ],
+        [
+          500,
+          400
+        ],
+        [
+          620,
+          400
+        ]
+      ],
+      "text": "Queue actions; opt-in\nStatus; private notifications",
+      "label": [
+        350,
+        135,
+        260,
+        65
+      ],
+      "dashed": false
+    },
+    {
+      "id": "E2",
+      "source": "ACT-02",
+      "target": "SYS-01",
+      "points": [
+        [
+          330,
+          520
+        ],
+        [
+          620,
+          520
+        ]
+      ],
+      "text": "Machine actions; audit query\nStatus / audit results",
+      "label": [
+        345,
+        440,
+        260,
+        65
+      ],
+      "dashed": false
+    },
+    {
+      "id": "E3",
+      "source": "ACT-03",
+      "target": "SYS-01",
+      "points": [
+        [
+          330,
+          795
+        ],
+        [
+          500,
+          795
+        ],
+        [
+          500,
+          580
+        ],
+        [
+          620,
+          580
+        ]
+      ],
+      "text": "Relocation data / result\nOverview after 02B",
+      "label": [
+        350,
+        815,
+        270,
+        65
+      ],
+      "dashed": true
+    },
+    {
+      "id": "E4",
+      "source": "SYS-01",
+      "target": "EXT-01",
+      "points": [
+        [
+          1020,
+          500
+        ],
+        [
+          1260,
+          500
+        ]
+      ],
+      "text": "Minimal message / outcome\nInterface TBD: DD-FX-01",
+      "label": [
+        1030,
+        270,
+        260,
+        90
+      ],
+      "dashed": true
+    }
+  ]
+}

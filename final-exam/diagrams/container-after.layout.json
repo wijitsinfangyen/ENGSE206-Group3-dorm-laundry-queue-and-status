@@ -1,0 +1,274 @@
+{
+  "width": 2120,
+  "height": 1120,
+  "title": "Containers after CR-FX-01",
+  "subtitle": "Case 03 | Proposed first release under CR-FX-02B | Reference stack | CRs Pending",
+  "footer": "Rules and authorization: API Application   |   No direct browser/job access to Database   |   External integration: Overview; delivery Later",
+  "boundary": [
+    360,
+    140,
+    1360,
+    860
+  ],
+  "boxes": [
+    {
+      "id": "ACT-01",
+      "x": 30,
+      "y": 180,
+      "w": 250,
+      "h": 145,
+      "text": "ACT-01  Resident\n[Person / Core]\nQueue; status; opt-in",
+      "kind": "actor"
+    },
+    {
+      "id": "ACT-02",
+      "x": 30,
+      "y": 440,
+      "w": 250,
+      "h": 145,
+      "text": "ACT-02  Dorm Admin\n[Person / Core]\nMachine actions; read audit",
+      "kind": "actor"
+    },
+    {
+      "id": "ACT-03",
+      "x": 30,
+      "y": 730,
+      "w": 250,
+      "h": 145,
+      "text": "ACT-03  Maid\n[Person / Core]\nRelocation: Overview",
+      "kind": "actor"
+    },
+    {
+      "id": "C1",
+      "x": 400,
+      "y": 370,
+      "w": 300,
+      "h": 240,
+      "text": "C1  Web App\n[Browser Web App / React]\nMobile-first queue views\nPrivate notification history\nSimple audit view (authorized)\nOpt-in; runs in user browser",
+      "kind": "core"
+    },
+    {
+      "id": "C2",
+      "x": 870,
+      "y": 370,
+      "w": 330,
+      "h": 240,
+      "text": "C2  API Application\n[Server API / Node.js + Express]\nIdentity; role; ownership\nQueue rules; opt-in; recipients\nCreate notices while web closed\nState + audit: one transaction\nAudit failure: rollback; no success\nAudit read: BR-FX-02; team server",
+      "kind": "core"
+    },
+    {
+      "id": "C3",
+      "x": 1360,
+      "y": 370,
+      "w": 320,
+      "h": 240,
+      "text": "C3  Database\n[Database / PostgreSQL]\nQueue; machine status\nPreferences; notice history\nAudit (DR-FX-02); job results\nState + audit: commit / rollback\nTeam-controlled DB server",
+      "kind": "core"
+    },
+    {
+      "id": "C4",
+      "x": 870,
+      "y": 770,
+      "w": 330,
+      "h": 180,
+      "text": "C4  Scheduled Job\n[Scheduled Job / Node.js]\nTrigger due-work evaluation\nTeam server; browser-independent\nSchedule / restart: DD-FX-04",
+      "kind": "core"
+    },
+    {
+      "id": "EXT-01",
+      "x": 1770,
+      "y": 770,
+      "w": 320,
+      "h": 180,
+      "text": "EXT-01\nExternal Notification Channel\n[External System / Tech TBD]\nExtension / TBD: DD-FX-01\nActual delivery: Later",
+      "kind": "external"
+    }
+  ],
+  "edges": [
+    {
+      "id": "E1",
+      "source": "ACT-01",
+      "target": "C1",
+      "points": [
+        [
+          280,
+          252
+        ],
+        [
+          335,
+          252
+        ],
+        [
+          335,
+          425
+        ],
+        [
+          400,
+          425
+        ]
+      ],
+      "text": "Queue / opt-in; status\nBrowser interaction",
+      "label": [
+        30,
+        110,
+        300,
+        60
+      ],
+      "dashed": false
+    },
+    {
+      "id": "E2",
+      "source": "ACT-02",
+      "target": "C1",
+      "points": [
+        [
+          280,
+          512
+        ],
+        [
+          400,
+          512
+        ]
+      ],
+      "text": "Actions / audit query + results\nBrowser interaction",
+      "label": [
+        20,
+        610,
+        300,
+        65
+      ],
+      "dashed": false
+    },
+    {
+      "id": "E3",
+      "source": "ACT-03",
+      "target": "C1",
+      "points": [
+        [
+          280,
+          802
+        ],
+        [
+          335,
+          802
+        ],
+        [
+          335,
+          555
+        ],
+        [
+          400,
+          555
+        ]
+      ],
+      "text": "Relocation / result\nBrowser; Overview",
+      "label": [
+        25,
+        895,
+        310,
+        65
+      ],
+      "dashed": true
+    },
+    {
+      "id": "E4",
+      "source": "C1",
+      "target": "C2",
+      "points": [
+        [
+          700,
+          490
+        ],
+        [
+          870,
+          490
+        ]
+      ],
+      "text": "Actions; notices; audit read\nProtocol TBD\nDD-G4-01",
+      "label": [
+        700,
+        260,
+        200,
+        95
+      ],
+      "dashed": false
+    },
+    {
+      "id": "E5",
+      "source": "C2",
+      "target": "C3",
+      "points": [
+        [
+          1200,
+          490
+        ],
+        [
+          1360,
+          490
+        ]
+      ],
+      "text": "State + audit transaction\nRollback if audit fails\nSQL; DEC-FX-01",
+      "label": [
+        1195,
+        260,
+        200,
+        95
+      ],
+      "dashed": false
+    },
+    {
+      "id": "E6",
+      "source": "C4",
+      "target": "C2",
+      "points": [
+        [
+          1035,
+          770
+        ],
+        [
+          1035,
+          610
+        ]
+      ],
+      "text": "Due-work request / result\nInternal interface TBD\nDD-G4-01 / DD-FX-04",
+      "label": [
+        775,
+        645,
+        280,
+        90
+      ],
+      "dashed": false
+    },
+    {
+      "id": "E7",
+      "source": "C2",
+      "target": "EXT-01",
+      "points": [
+        [
+          1200,
+          555
+        ],
+        [
+          1280,
+          555
+        ],
+        [
+          1280,
+          860
+        ],
+        [
+          1770,
+          860
+        ]
+      ],
+      "text": "Minimal message / outcome\nProtocol TBD: DD-FX-01\nCheck opt-in at API",
+      "label": [
+        1750,
+        650,
+        340,
+        90
+      ],
+      "dashed": true
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device">
+  <diagram id="container-after" name="container-after">
+    <mxGraphModel dx="2120" dy="1120" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="2120" pageHeight="1120" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Containers after CR-FX-01" style="text;html=0;align=left;fontSize=32;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="20" width="2060" height="45" />
+        </mxCell>
+        <mxCell id="subtitle" value="Case 03 | Proposed first release under CR-FX-02B | Reference stack | CRs Pending" style="text;html=0;align=left;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="70" width="2060" height="32" />
+        </mxCell>
+        <mxCell id="footer" value="Rules and authorization: API Application   |   No direct browser/job access to Database   |   External integration: Overview; delivery Later" style="text;html=0;align=left;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="1050" width="2060" height="50" />
+        </mxCell>
+        <mxCell id="boundary" value="SYS-01  Dorm Laundry Queue and Status | Team responsibility" style="rounded=0;whiteSpace=wrap;html=0;fillColor=none;strokeColor=#94a3b8;dashed=1;verticalAlign=top;align=left;spacing=12;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="360" y="140" width="1360" height="860" />
+        </mxCell>
+        <mxCell id="ACT-01" value="ACT-01  Resident&#10;[Person / Core]&#10;Queue; status; opt-in" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#e2e8f0;strokeColor=#64748b;strokeWidth=2;fontColor=#0f172a;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="180" width="250" height="145" />
+        </mxCell>
+        <mxCell id="ACT-02" value="ACT-02  Dorm Admin&#10;[Person / Core]&#10;Machine actions; read audit" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#e2e8f0;strokeColor=#64748b;strokeWidth=2;fontColor=#0f172a;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="440" width="250" height="145" />
+        </mxCell>
+        <mxCell id="ACT-03" value="ACT-03  Maid&#10;[Person / Core]&#10;Relocation: Overview" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#e2e8f0;strokeColor=#64748b;strokeWidth=2;fontColor=#0f172a;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="730" width="250" height="145" />
+        </mxCell>
+        <mxCell id="C1" value="C1  Web App&#10;[Browser Web App / React]&#10;Mobile-first queue views&#10;Private notification history&#10;Simple audit view (authorized)&#10;Opt-in; runs in user browser" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dbeafe;strokeColor=#2563eb;strokeWidth=2;fontColor=#0f172a;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="400" y="370" width="300" height="240" />
+        </mxCell>
+        <mxCell id="C2" value="C2  API Application&#10;[Server API / Node.js + Express]&#10;Identity; role; ownership&#10;Queue rules; opt-in; recipients&#10;Create notices while web closed&#10;State + audit: one transaction&#10;Audit failure: rollback; no success&#10;Audit read: BR-FX-02; team server" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dbeafe;strokeColor=#2563eb;strokeWidth=2;fontColor=#0f172a;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="870" y="370" width="330" height="240" />
+        </mxCell>
+        <mxCell id="C3" value="C3  Database&#10;[Database / PostgreSQL]&#10;Queue; machine status&#10;Preferences; notice history&#10;Audit (DR-FX-02); job results&#10;State + audit: commit / rollback&#10;Team-controlled DB server" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dbeafe;strokeColor=#2563eb;strokeWidth=2;fontColor=#0f172a;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1360" y="370" width="320" height="240" />
+        </mxCell>
+        <mxCell id="C4" value="C4  Scheduled Job&#10;[Scheduled Job / Node.js]&#10;Trigger due-work evaluation&#10;Team server; browser-independent&#10;Schedule / restart: DD-FX-04" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dbeafe;strokeColor=#2563eb;strokeWidth=2;fontColor=#0f172a;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="870" y="770" width="330" height="180" />
+        </mxCell>
+        <mxCell id="EXT-01" value="EXT-01&#10;External Notification Channel&#10;[External System / Tech TBD]&#10;Extension / TBD: DD-FX-01&#10;Actual delivery: Later" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#fff7ed;strokeColor=#c2410c;strokeWidth=2;fontColor=#0f172a;fontSize=18;align=center;verticalAlign=middle;dashed=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1770" y="770" width="320" height="180" />
+        </mxCell>
+        <mxCell id="E1" value="" edge="1" parent="1" source="ACT-01" target="C1" style="edgeStyle=none;html=0;startArrow=classic;endArrow=classic;strokeColor=#475569;strokeWidth=2;exitX=1.0;exitY=0.496551724137931;entryX=0.0;entryY=0.22916666666666666;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="335" y="252" />
+              <mxPoint x="335" y="425" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E1-label" value="Queue / opt-in; status&#10;Browser interaction" vertex="1" parent="E1" style="edgeLabel;html=0;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=17;fillColor=#ffffff;resizable=1;">
+          <mxGeometry as="geometry" x="0" y="0" width="300" height="60" relative="1">
+            <mxPoint as="offset" x="-155.0" y="-203.5" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E2" value="" edge="1" parent="1" source="ACT-02" target="C1" style="edgeStyle=none;html=0;startArrow=classic;endArrow=classic;strokeColor=#475569;strokeWidth=2;exitX=1.0;exitY=0.496551724137931;entryX=0.0;entryY=0.5916666666666667;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="E2-label" value="Actions / audit query + results&#10;Browser interaction" vertex="1" parent="E2" style="edgeLabel;html=0;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=17;fillColor=#ffffff;resizable=1;">
+          <mxGeometry as="geometry" x="0" y="0" width="300" height="65" relative="1">
+            <mxPoint as="offset" x="-170.0" y="130.5" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3" value="" edge="1" parent="1" source="ACT-03" target="C1" style="edgeStyle=none;html=0;startArrow=classic;endArrow=classic;strokeColor=#475569;strokeWidth=2;exitX=1.0;exitY=0.496551724137931;entryX=0.0;entryY=0.7708333333333334;dashed=1;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="335" y="802" />
+              <mxPoint x="335" y="555" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3-label" value="Relocation / result&#10;Browser; Overview" vertex="1" parent="E3" style="edgeLabel;html=0;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=17;fillColor=#ffffff;resizable=1;">
+          <mxGeometry as="geometry" x="0" y="0" width="310" height="65" relative="1">
+            <mxPoint as="offset" x="-155.0" y="254.0" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E4" value="" edge="1" parent="1" source="C1" target="C2" style="edgeStyle=none;html=0;startArrow=classic;endArrow=classic;strokeColor=#475569;strokeWidth=2;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.5;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="E4-label" value="Actions; notices; audit read&#10;Protocol TBD&#10;DD-G4-01" vertex="1" parent="E4" style="edgeLabel;html=0;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=17;fillColor=#ffffff;resizable=1;">
+          <mxGeometry as="geometry" x="0" y="0" width="200" height="95" relative="1">
+            <mxPoint as="offset" x="15.0" y="-182.5" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E5" value="" edge="1" parent="1" source="C2" target="C3" style="edgeStyle=none;html=0;startArrow=classic;endArrow=classic;strokeColor=#475569;strokeWidth=2;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.5;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="E5-label" value="State + audit transaction&#10;Rollback if audit fails&#10;SQL; DEC-FX-01" vertex="1" parent="E5" style="edgeLabel;html=0;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=17;fillColor=#ffffff;resizable=1;">
+          <mxGeometry as="geometry" x="0" y="0" width="200" height="95" relative="1">
+            <mxPoint as="offset" x="15.0" y="-182.5" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E6" value="" edge="1" parent="1" source="C4" target="C2" style="edgeStyle=none;html=0;startArrow=classic;endArrow=classic;strokeColor=#475569;strokeWidth=2;exitX=0.5;exitY=0.0;entryX=0.5;entryY=1.0;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="E6-label" value="Due-work request / result&#10;Internal interface TBD&#10;DD-G4-01 / DD-FX-04" vertex="1" parent="E6" style="edgeLabel;html=0;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=17;fillColor=#ffffff;resizable=1;">
+          <mxGeometry as="geometry" x="0" y="0" width="280" height="90" relative="1">
+            <mxPoint as="offset" x="-120.0" y="0.0" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E7" value="" edge="1" parent="1" source="C2" target="EXT-01" style="edgeStyle=none;html=0;startArrow=classic;endArrow=classic;strokeColor=#475569;strokeWidth=2;exitX=1.0;exitY=0.7708333333333334;entryX=0.0;entryY=0.5;dashed=1;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="1280" y="555" />
+              <mxPoint x="1280" y="860" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E7-label" value="Minimal message / outcome&#10;Protocol TBD: DD-FX-01&#10;Check opt-in at API" vertex="1" parent="E7" style="edgeLabel;html=0;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=17;fillColor=#ffffff;resizable=1;">
+          <mxGeometry as="geometry" x="0" y="0" width="340" height="90" relative="1">
+            <mxPoint as="offset" x="587.5" y="-165.0" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

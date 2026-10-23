@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device">
+  <diagram id="context-after" name="context-after">
+    <mxGraphModel dx="1600" dy="1000" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="System Context after CR-FX-01" style="text;html=0;align=left;fontSize=32;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="20" width="1540" height="45" />
+        </mxCell>
+        <mxCell id="subtitle" value="Case 03 | CR-FX-02B selected | Design Draft / Proposed | CRs Pending" style="text;html=0;align=left;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="70" width="1540" height="32" />
+        </mxCell>
+        <mxCell id="footer" value="Solid: proposed first release   |   Dashed: Overview / TBD; external delivery Later   |   No hardware or payment integration" style="text;html=0;align=left;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="930" width="1540" height="50" />
+        </mxCell>
+        <mxCell id="ACT-01" value="ACT-01  Resident&#10;[Person / Core]&#10;View status; book queue&#10;Choose external opt-in" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#e2e8f0;strokeColor=#64748b;strokeWidth=2;fontColor=#0f172a;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="160" width="280" height="160" />
+        </mxCell>
+        <mxCell id="ACT-02" value="ACT-02  Dorm Admin&#10;[Person / Core]&#10;Open / close machines&#10;Review faults; read audit" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#e2e8f0;strokeColor=#64748b;strokeWidth=2;fontColor=#0f172a;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="440" width="280" height="160" />
+        </mxCell>
+        <mxCell id="ACT-03" value="ACT-03  Maid&#10;[Person / Core]&#10;Record relocated laundry&#10;Detail after 02B: Overview" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#e2e8f0;strokeColor=#64748b;strokeWidth=2;fontColor=#0f172a;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="720" width="280" height="150" />
+        </mxCell>
+        <mxCell id="SYS-01" value="SYS-01&#10;Dorm Laundry Queue and Status&#10;[Software System / Core]&#10;Queue and machine status&#10;Stored private notice history&#10;Timed reminders; audit read" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dbeafe;strokeColor=#2563eb;strokeWidth=2;fontColor=#0f172a;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="620" y="340" width="400" height="290" />
+        </mxCell>
+        <mxCell id="EXT-01" value="EXT-01&#10;External Notification Channel&#10;[External System]&#10;Extension / TBD&#10;Actual delivery: Later" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#fff7ed;strokeColor=#c2410c;strokeWidth=2;fontColor=#0f172a;fontSize=18;align=center;verticalAlign=middle;dashed=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1260" y="400" width="290" height="200" />
+        </mxCell>
+        <mxCell id="E1" value="" edge="1" parent="1" source="ACT-01" target="SYS-01" style="edgeStyle=none;html=0;startArrow=classic;endArrow=classic;strokeColor=#475569;strokeWidth=2;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.20689655172413793;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="500" y="240" />
+              <mxPoint x="500" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E1-label" value="Queue actions; opt-in&#10;Status; private notifications" vertex="1" parent="E1" style="edgeLabel;html=0;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=17;fillColor=#ffffff;resizable=1;">
+          <mxGeometry as="geometry" x="0" y="0" width="260" height="65" relative="1">
+            <mxPoint as="offset" x="-20.0" y="-127.5" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E2" value="" edge="1" parent="1" source="ACT-02" target="SYS-01" style="edgeStyle=none;html=0;startArrow=classic;endArrow=classic;strokeColor=#475569;strokeWidth=2;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.6206896551724138;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="E2-label" value="Machine actions; audit query&#10;Status / audit results" vertex="1" parent="E2" style="edgeLabel;html=0;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=17;fillColor=#ffffff;resizable=1;">
+          <mxGeometry as="geometry" x="0" y="0" width="260" height="65" relative="1">
+            <mxPoint as="offset" x="0.0" y="-47.5" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3" value="" edge="1" parent="1" source="ACT-03" target="SYS-01" style="edgeStyle=none;html=0;startArrow=classic;endArrow=classic;strokeColor=#475569;strokeWidth=2;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.8275862068965517;dashed=1;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="500" y="795" />
+              <mxPoint x="500" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3-label" value="Relocation data / result&#10;Overview after 02B" vertex="1" parent="E3" style="edgeLabel;html=0;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=17;fillColor=#ffffff;resizable=1;">
+          <mxGeometry as="geometry" x="0" y="0" width="270" height="65" relative="1">
+            <mxPoint as="offset" x="-15.0" y="135.0" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E4" value="" edge="1" parent="1" source="SYS-01" target="EXT-01" style="edgeStyle=none;html=0;startArrow=classic;endArrow=classic;strokeColor=#475569;strokeWidth=2;exitX=1.0;exitY=0.5517241379310345;entryX=0.0;entryY=0.5;dashed=1;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="E4-label" value="Minimal message / outcome&#10;Interface TBD: DD-FX-01" vertex="1" parent="E4" style="edgeLabel;html=0;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=17;fillColor=#ffffff;resizable=1;">
+          <mxGeometry as="geometry" x="0" y="0" width="260" height="90" relative="1">
+            <mxPoint as="offset" x="20.0" y="-185.0" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
